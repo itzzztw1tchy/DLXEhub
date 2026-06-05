@@ -3,31 +3,31 @@ local swaghublib = {}
 local UIS = game:GetService("UserInputService")
 
 local Themes = {
-    Dark = {
+    All = {
         Background = Color3.fromRGB(194, 24, 7),
         Secondary = Color3.fromRGB(138, 0, 0),
         Header = Color3.fromRGB(48, 25, 50),
         Text = Color3.fromRGB(255, 255, 255),
-        Accent = Color3.fromRGB(255, 255, 255),
-        Divider = Color3.fromRGB(255, 255, 255),
+        Accent = Color3.fromRGB(48, 25, 52),
+        Divider = Color3.fromRGB(0, 0, 0),
     },
 
-    Light = {
-        Background = Color3.fromRGB(245, 245, 245),
-        Secondary = Color3.fromRGB(230, 230, 230),
-        Header = Color3.fromRGB(2, 220, 220),
-        Text = Color3.fromRGB(20, 20, 20),
-        Accent = Color3.fromRGB(0, 0, 0),
-        Divider = Color3.fromRGB(100, 100, 100),
-    },
-
-    Purple = {
-        Background = Color3.fromRGB(40, 30, 60),
-        Secondary = Color3.fromRGB(50, 35, 80),
-        Header = Color3.fromRGB(60, 45, 90),
+    The = {
+        Background = Color3.fromRGB(194, 24, 7),
+        Secondary = Color3.fromRGB(138, 0, 0),
+        Header = Color3.fromRGB(48, 25, 50),
         Text = Color3.fromRGB(255, 255, 255),
-        Accent = Color3.fromRGB(180, 120, 255),
-        Divider = Color3.fromRGB(180, 120, 255),
+        Accent = Color3.fromRGB(48, 25, 52),
+        Divider = Color3.fromRGB(0, 0, 0),
+    },
+
+    Same = {
+        Background = Color3.fromRGB(194, 24, 7),
+        Secondary = Color3.fromRGB(138, 0, 0),
+        Header = Color3.fromRGB(48, 25, 50),
+        Text = Color3.fromRGB(255, 255, 255),
+        Accent = Color3.fromRGB(48, 25, 52),
+        Divider = Color3.fromRGB(0, 0, 0),
     },
 }
 
@@ -107,7 +107,7 @@ function swaghublib:Window(name)
     end
 
     local SWAGHUB = Instance.new("ScreenGui")
-    SWAGHUB.Name = "SWAGHUB"
+    SWAGHUB.Name = "DLXEHUB"
     SWAGHUB.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
     SWAGHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     SWAGHUB.Parent = game:GetService("CoreGui")
