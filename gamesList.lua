@@ -1,7 +1,7 @@
 local games = {
   RoCitizens = {
-    GameName = "RoCitizens",
-    Status = "🟢",
+    GameName = "RoCitizens (GAME WONT WORK ANYMORE)",
+    Status = "🔴",
     GameID = 137877687
   },
   BuildAZoo = {
@@ -11,12 +11,12 @@ local games = {
   },
   NNNights = {
     GameName = "99 Nights in the Forest",
-    Status = "🟡",
+    Status = "🟢",
     GameID = 79546208627805
   },
   TOH = {
     GameName = "Tower of Hell",
-    Status = "🟡",
+    Status = "🟢",
     GameID = 1962086868
   },
   PoolClassic = {
@@ -26,7 +26,7 @@ local games = {
   },
   MVS = {
     GameName = "Murderers vs Sheriff",
-    Status = "🟢",
+    Status = "🟡",
     GameID = 12355337193
   },
 }
