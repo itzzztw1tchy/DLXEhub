@@ -6,3 +6,5 @@
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/itzzztw1tchy/DLXEhub/refs/heads/main/DLXEmain.lua"))()
 ```
+# DISCLAIMER
+## THIS IS A MODIFIED VARIANT OF SWAGHUB
